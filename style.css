@@ -1,0 +1,39 @@
+a{
+    color: goldenrod;
+    font-weight: 700;
+} 
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: greenyellow;
+    height: 100px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.main div:first-child{
+    width: 40%;
+    background-color: indigo;
+}
+
+.main div:last-child{
+    width: 20%;   
+}
+ol, ul {
+    background-color: yellowgreen;
+}
+
+
+/* .main div{
+    background-color: indigo;
+} */
+
+/* html, body{
+    height: 100%;
+} */
